@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************FORMATTAZIONE TESTO*****************/
+a{
+  color: #b2b7bd;
+}
+
+#black{
+  color: #292929;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+}
+/***************************************/
+
+.container{
+  display: flex;
+  min-height: 100px;
+  /*border: 1px solid coral;*/
+  padding: 10px;
+}
+
+.sinistra li, .destra li{
+  list-style: none;
+}
+
+.sinistra a, .destra a{
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.sinistra{
+  width: 30%;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo{
+  max-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linea li {
+  display: inline-block;
+  padding: 4px;
+}
+
+.destra{
+  width: 70%;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.destra .with-dropdown{
+  position: relative;
+}
+
+.destra .dropdown-menu{
+  display: none;
+  position: absolute;
+  text-align: justify;
+  width: 270px;
+  background-color: #FFFAF0;
+  top: 100%;
+  right: -66px;
+}
+
+.dropdown-menu a{
+  display: inline-block;
+  width: 100%;
+  line-height: 3rem;
+}
+
+.destra button{
+  background-color: #eb008d;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 15%;
+  border: 0px;
+}
+
+/***********BONUS*********/
+.container2{
+  display: flex;
+  min-height: 100px;
+  /*border: 1px solid coral;*/
+  padding: 10px;
+}
+
+.text-sinistra{
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testo-h1-se2{
+  font-size: 76px;
+  text-align: center;
+  font-family: "Basier Circle", sans-serif;
+}
+
+.testo-p-se2{
+  font-size: 20px;
+  color: #b2b7bd;
+  margin: 10px;
+}
+
+#numero-telefono{
+  padding: 6px;
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+#bottono-section2{
+  padding: 6px;
+  margin: 10px;
+  width: 80px;
+  text-align: center;
+  background-color: #46494b;
+  color: #8b8d8e;
+  border: 0px;
+  border-radius: 15%;
+}
+
+#registrati-ora{
+  padding: 6px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-clock{
+  padding-right: 8px;
+}
+
+.text-destra{
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#telefono{
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
