@@ -1,4 +1,4 @@
-//
+//Ogni voce di menù avrà un suo dropdown menù che viene fuori al click.
 
 $(document).ready(function() {
 
